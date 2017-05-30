@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/geekankit318/url-shortner/issues"
   },
-  "homepage": "https://github.com/geekankit318/url-shortner#readme"
+  "homepage": "https://github.com/geekankit318/url-shortner#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  }
 }
