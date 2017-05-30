@@ -50,9 +50,9 @@ app.get('/new/:urlToShorten(*)', (req, res, next) => {
 });
 
 // Query DB and forward to original URL
-app.get('/:urlToForward', (req, res, next) => {
+app.get('/ti.ny/:urlToForward', (req, res, next) => {
     // Stores the value of param
-    let shorterUrl = req.params.urlToForward;
+    let shorterUrl = 'ti.ny/' + req.params.urlToForward;
 
     shortUrl.findOne({'shorterUrl': shorterUrl}, (err, data) => {
         console.log(data);

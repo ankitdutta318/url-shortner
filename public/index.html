@@ -22,7 +22,7 @@
     </header>
 
     <section ng-controller="shortAppCtrl">
-        <!--{{urlToShorten}}-->
+        {{urlToShorten}}
         <input type="text" placeholder="Enter URL" ng-model="urlToShorten">
         <a class="btn btn-primary" ng-href="/new/{{urlToShorten}}">Get ShortURL</a>
     </section>
