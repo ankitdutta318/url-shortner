@@ -1,0 +1,19 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "A URL Shortner as a Micro Service using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekankit318/url-shortner.git"
+  },
+  "author": "Ankit Dutta <geekankit318@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekankit318/url-shortner/issues"
+  },
+  "homepage": "https://github.com/geekankit318/url-shortner#readme"
+}
