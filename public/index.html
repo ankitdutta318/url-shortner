@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="shortUrlApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="/js/app.js"></script>
+
+    <title>Url Shortner</title>
+</head>
+<body class="text-center">
+    <header>
+        <h3>URL Shortner Microservice</h3>
+        <h4> <a href="geekankit318.github.io" target="blank">
+        Geekankit - My Personal Website</a></h4>
+            <a href="https://github.com/geekankit318/url-shortner.git" target="blank">
+            <img src="https://geekankit318.github.io/assets/img/wave.gif" alt="" width="250">
+            <h5>Link : Simple Url Shortner Microservice</h5></a>
+            <h5>Technologies: Node, Express, MongoDB, Mongoose, JavaScript HTML CSS BootStrap</h5>
+    </header>
+
+    <section ng-controller="shortAppCtrl">
+        <!--{{urlToShorten}}-->
+        <input type="text" placeholder="Enter URL" ng-model="urlToShorten">
+        <a class="btn btn-primary" ng-href="/new/{{urlToShorten}}">Get ShortURL</a>
+    </section>
+    
+</body>
+</html>
